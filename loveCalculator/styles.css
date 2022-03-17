@@ -1,0 +1,42 @@
+body {
+  font-family: 'Questrial', sans-serif;
+  background-color: rgb(243, 188, 188)
+}
+
+h1 {
+  text-align: center;
+  color: rgb(37, 32, 32);
+  font-size: 2.8rem;
+  padding: 3% 0;
+}
+
+.names {
+  margin: 3px 3px 0px 3px;
+}
+
+.love-button {
+  margin: 3% 33% 3% 33%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.predictionText {
+  font-size: 2rem;
+  color:rgb(185, 69, 69);
+  text-align: center;
+}
+
+.predictionText2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#changeOnButtonClick {
+  height: 215px;
+  width: 215px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
