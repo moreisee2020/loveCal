@@ -18,11 +18,19 @@ function love() {
 
   } else if (yourName === "Kristine" && lovesName === "Elsa") {
 
-    document.querySelector(".predictionText").innerHTML = "Your love score is 100%!";
+    document.querySelector(".predictionText").innerHTML = "Your love score is 100%! Incredible!";
 
   } else if (yourName === "Elsa" && lovesName === "Kristine") {
 
-    document.querySelector(".predictionText").innerHTML = "Your love score is 100%!";
+    document.querySelector(".predictionText").innerHTML = "Your love score is 100%! Legendary!";
+    
+  } else if (yourName === "Kristin" && lovesName === "Jess") {
+
+    document.querySelector(".predictionText").innerHTML = "Your love score is 100%! Amazing!";
+
+  } else if (yourName === "Jess" && lovesName === "Kristin") {
+
+    document.querySelector(".predictionText").innerHTML = "Your love score is 100%! Wowza!";
 
   } else {
     var loveScore = Math.floor(Math.random() *100) + 1;
