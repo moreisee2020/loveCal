@@ -22,7 +22,7 @@ function love() {
 
   } else if (yourName === "Elsa" && lovesName === "Kristine") {
 
-    document.querySelector(".predictionText").innerHTML = "Your love score is 100%! Legendary!";
+    document.querySelector(".predictionText").innerHTML = "Your love score is 100%! Epic!";
     
   } else if (yourName === "Kristin" && lovesName === "Jess") {
 
